@@ -194,10 +194,6 @@ with open("errorlog.txt", "a") as chkc:
 	chkc.write('-----START TIME: '+str(dt.datetime.now())+'-----'+"\n")
 
 driver = BOT()
-#driver.login_initial('DaChil1Pil1', '44Monkey44')
-#driver = BOT('robertsavage.shoots', '44Monkey44') 
-#driver = BOT('AnimeTactic', 'Pandasage22!')
-#driver = BOT('DaChil1Pil1', '44Monkey44')
 #driver.savedsession()
 now = dt.datetime.now()
 
